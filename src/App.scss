@@ -77,9 +77,18 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        transition: 0.5s;
 
+        &:hover {
+          transform: scale(1.1);
+          background-color: transparent;
+          border: solid #ddd 1px;
+          border-radius: 20px;
+          color: #000;
+        }
         h2 {
           width: 70%;
+          color: #ddd;
         }
         button {
           height: 50%;
